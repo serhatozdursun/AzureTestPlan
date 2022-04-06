@@ -59,7 +59,7 @@ public class TestBase implements BeforeAllCallback, AfterAllCallback, BeforeEach
                 .pathParams("runId", ReuseStoreData.get("RunId"))
                 .body("[" +
                         "    {" +
-                        "        \"durationInMs\": 2558," +
+                        "        \"durationInMs\": 2558," + // you can calculate and pass correct test time
                         "        \"testCaseRevision\": \""+testCaseRevision+"\"," +
                         "        \"computerName\": \"computer\"," +
                         "        \"startedDate\": \"2020-10-01T14:09:04.068028700\"," +
